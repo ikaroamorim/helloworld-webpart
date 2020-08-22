@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "4fcdbd6d-36ea-4aa6-974a-08db5f7f81c8",
+  "alias": "HelloWorldWebPart",
+  "componentType": "WebPart",
+  
+  "version": "*",
+  "manifestVersion": 2,
+  
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "Webpart do Ikaro"
+      },
+      "description": {
+        "default": "Webpart de Teste do Ikaro, um simples hellow world modificado"
+      },
+      "officeFabricIconFontName": "Bug",
+      "properties": {
+        "description": "HelloWorld",
+        "test": "Texto Múltiplas Linhas",
+        "test1": false,
+        "test2": "0",
+        "test3": false
+      }
+    }
+  ]
+}
